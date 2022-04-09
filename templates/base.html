@@ -1,0 +1,171 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AI Demo</title>
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+div.modal-header{
+  background: #ff1a34;
+  color: white
+}
+div.modal-body{
+  background:  #fcf6f5;
+}
+div.modal-footer{
+  background: #ff1a34;
+  color: white
+}
+
+</style>
+        
+</head>
+
+<body background="https://c1.wallpaperflare.com/preview/708/559/717/appetite-calories-catering-colorful.jpg">
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Plant Disease Detector</a>
+
+ 
+  <!-- Trigger the modal with a button -->
+  <button class="btn btn-outline-secondary my-2 my-sm-0" style="background-color: #39D2B4 ; color: white" type="button" data-toggle="modal" data-target="#myModal">Know More</button>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog  modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <h4 class="modal-title"><b>Here's what to do !</b></h4>
+        </div>
+        <div class="modal-body">
+
+
+
+           <h5><b>Bacterial Spot </b></h5>
+          <p>
+            The disease is caused by four species of <i>Xanthomonas</i>. 
+     <br /><u>Prevention / Remedy :</u>
+     <br /> Use of pathogen-free certified seeds and disease-free transplants
+                    <br /> Minimize overwatering and handling of seedlings when they are wet.
+                    <br /> Do not spray, tie, harvest, or handle wet plants as that can spread the disease.
+            
+          </p>
+          
+
+           <h5><b>Early Blight </b></h5>
+          <p>
+            Early blight can be caused by two different closely related fungi,  <i>Alternaria tomatophila and Alternaria solani.</i>. 
+     <br /><u>Prevention / Remedy :</u>
+     <br /> Use pathogen-free seed, or collect seed only from disease-free plants.
+                    <br /> Rotate out of tomatoes and related crops for at least two years.
+                    <br /> Control susceptible weeds such as black nightshade and hairy nightshade, and volunteer tomato plants throughout the rotation.
+            
+          </p>
+          
+
+           <h5><b>Tomato Late Blight </b></h5>
+          <p>
+            Late blight is caused by the <i>Oomycetes</i>  that are fungus-like organisms also called water molds, but they are not true fungi. 
+     <br /><u>Prevention / Remedy :</u>
+     <br /> Seed infection is unlikely on commercially prepared tomato seed or on saved seed that has been thoroughly dried.
+                    <br /> Inspect tomato transplants for late blight symptoms prior to purchase and/or planting, as tomato transplants shipped from southern regions may be infected.
+                    <br /> If infection is found in only a few plants within a field, infected plants should be removed, disced-under, killed with herbicide or flame-killed to avoid spreading through the entire field.
+            
+          </p>
+          
+
+           <h5><b>Tomato Leaf Mold </b></h5>
+          <p>
+            Leaf mold is caused by the fungus <i>Passalora fulva</i>. 
+     <br /><u>Prevention / Remedy :</u>
+     <br /> Space plants to provide good air movement between rows and individual plants.
+                    <br /> Stake, string or prune to increase airflow in and around the plant.
+                    <br /> Remove crop residue at the end of the season. Burn it or bury it away from tomato production areas.
+            
+          </p>    
+
+            <h5><b>Tomato Septoria Leaf Spot</b></h5>
+          <p>
+             Septoria leaf spot is caused by a fungus, <i>Septoria lycopersici</i>. 
+     <br /><u>Prevention / Remedy :</u>
+     <br />*Remove diseased leaves. 
+                    <br /> *Improve air circulation around the plants.
+                    <br /> *Mulch around the base of the plants.
+            
+          </p>
+ 
+           <h5><b>Tomato Spider Mites </b></h5>
+          <p>
+            Spider mites are annoying and tiny arachnids that can infest and damage many kinds of outdoor plants, including tomatoes. 
+     <br /><u>Prevention / Remedy :</u>
+     <br /> *Plant your tomato plants where they stay warm without drying out.
+                    <br /> *Ensure your tomato plants are growing in loamy soil with lots of organic matter.
+                    <br /> *Place hot pepper or garlic in the soil to prevent spider mites.
+            
+          </p>
+
+
+           <h5><b>Tomato Target Spot </b></h5>
+          <p>
+            Target spot of tomato is caused by the fungal pathogen <i>Corynespora cassiicola.</i>. 
+     <br /><u>Prevention / Remedy :</u>
+     <br /> *Remove old plant debris at the end of the growing season
+                    <br /> *Pay careful attention to air circulation, as target spot of tomato thrives in humid conditions.
+                    <br /> *Water tomato plants in the morning so the leaves have time to dry. 
+                    <br /> *The strobilurin fungicides azoxystrobin and pyraclostrobin, the fungicide boscalid, and the systemic acquired resistance (SAR) elicitor acibenzolar-S-methyl have also been shown to provide good control of target spot.
+            
+          </p>
+          
+
+           <h5><b>Tomato Yellow Leaf Curl Virus </b></h5>
+          <p>
+            Tomato yellow leaf curl virus is a tomato <i>Solanum lycopersicum</i>-infecting plant virus transmitted by whitefly <i>Bemisia tabaci</i>. 
+     <br /><u>Prevention / Remedy :</u>
+     <br /> *Plants should be watered and fertilized adequately to reduce stress and to build plant health.
+                    <br /> *Imidacloprid should be sprayed on the entire plant and below the leaves; eggs and flies are often found below the leaves.
+                    <br /> *Symptomatic plants should be carefully covered by a clear or black plastic bag and tied at the stem at soil line. Cut off the plant below the bag and allow bag with plant and whiteflies to desiccate to death on the soil surface for 1-2 days prior to placing the plant in the trash.
+            
+          </p>
+          
+
+           <h5><b>Tomato Mosaic Virus (ToMV ) </b></h5>
+          <p>
+            Tomato mosaic virus (ToMV) is a member of family <i>tobamoviridae</i> and belongs to the genus <i>tobamovirus</i>, which is a plant pathogenic virus.
+     <br /><u>Prevention / Remedy :</u>
+     <br /> *Control your weeds. Some types may serve as hosts for the disease, and when aphids and other insects feed on these plants,they will spread the viruses to your garden plants.
+                    <br /> *To avoid seed-borne mosaic viruses, soak seeds of susceptible plants in a 10% bleach solution before planting.
+                    <br /> *Plant virus-resistant varieties in your garden.
+            
+          </p>
+          
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" style="background-color: #39D2B4; color: #ffffff" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+        </div>
+    </nav>
+    <div class="container">
+        <div id="content" style="margin-top:2em">{% block content %}{% endblock %}</div>
+    </div>
+</body>
+
+<footer>
+    <script src="{{ url_for('static', filename='js/main.js') }}" type="text/javascript"></script>    
+</footer>
+
+</html>
